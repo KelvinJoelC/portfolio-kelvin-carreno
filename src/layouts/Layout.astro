@@ -1,3 +1,7 @@
+---
+import '@fontsource-variable/jost';
+---
+
 <!doctype html>
 <html lang="es">
 	<head>
@@ -5,15 +9,20 @@
 		<meta name="description" content="TODO">
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<title>Astro Basics</title>
+		<title>Portolio Kc</title>
 	</head>
 	<body>
-		<slot />
+		<div class="max-w-6xl px-10 pt-40 mx-auto">
+			<slot />
+		</div>
 	</body>
 </html>
 
 <style>
-	html,
+	html {	
+		background-color: white;
+		font-family: 'Jost Variable', sans-serif;
+	},
 	body {
 		margin: 0;
 		width: 100%;
