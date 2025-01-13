@@ -1,0 +1,7 @@
+.tecnology-item{
+    max-width: 250px;
+    min-width: 100px;
+    height: fit-content;
+    background-color: red;
+    justify-items: center;
+}
